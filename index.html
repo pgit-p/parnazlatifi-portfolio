@@ -2,115 +2,311 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Machine Learning Engineer Portfolio</title>
-  <link rel="stylesheet" href="style.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Portfolio | Machine Learning Engineer</title>
+  <meta name="description" content="Personal portfolio website for a Machine Learning Engineer and Data Scientist." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
+  <header class="hero">
+    <nav class="topbar">
+      <a class="brand" href="#home">Portfolio</a>
+      <div class="navlinks">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
 
-<header>
-  <div class="container">
-    <h1>Your Name</h1>
-    <p>Machine Learning Engineer | Data Scientist</p>
+    <div class="hero-content" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">Machine Learning Engineer · Data Scientist</p>
+        <h1>Building data-driven systems across speech, NLP, vision, and biosignals.</h1>
+        <p class="summary">
+          MSc in Data Science with experience in predictive modeling, signal processing, and deep learning.
+          Focused on practical, production-oriented ML workflows that turn raw data into reliable decisions.
+        </p>
 
-    <div class="buttons">
-      <a href="#contact">Contact</a>
-      <a href="cv.pdf" download>Download CV</a>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">View Projects</a>
+          <a class="btn secondary" href="cv.pdf" download>Download CV</a>
+        </div>
+
+        <div class="quickfacts">
+          <div><strong>Python</strong><span>ML / DL</span></div>
+          <div><strong>NLP</strong><span>Speech & Text</span></div>
+          <div><strong>Computer Vision</strong><span>Classification</span></div>
+        </div>
+      </div>
+
+      <aside class="hero-card">
+        <p class="card-title">Professional Snapshot</p>
+        <ul>
+          <li>Machine learning workflows for biosignal-based detection</li>
+          <li>Feature engineering, evaluation, and model comparison</li>
+          <li>Teaching assistant experience in algorithms and AI</li>
+          <li>Web development foundation with HTML, CSS, and JavaScript</li>
+        </ul>
+      </aside>
     </div>
-  </div>
-</header>
+  </header>
 
-<nav>
-  <a href="#about">About</a>
-  <a href="#education">Education</a>
-  <a href="#experience">Experience</a>
-  <a href="#projects">Projects</a>
-  <a href="#skills">Skills</a>
-</nav>
+  <main>
+    <section class="section" id="about">
+      <div class="section-heading">
+        <p>About</p>
+        <h2>Professional Summary</h2>
+      </div>
+      <div class="panel">
+        <p>
+          Machine Learning Engineer with an MSc in Data Science and experience building data-driven solutions
+          across predictive modeling, NLP, speech processing, and computer vision. Strong foundation in Python,
+          SQL, machine learning, and deep learning, with hands-on experience across data preparation, feature
+          engineering, model evaluation, and deployment-oriented workflows. Experienced in applying statistical
+          learning and ML models to classification, time-series forecasting, sentiment analysis, and anomaly
+          detection. Motivated by using data to uncover patterns, improve decision-making, and build scalable
+          predictive systems in production-oriented environments.
+        </p>
+      </div>
+    </section>
 
-<section id="about">
-  <h2>Professional Summary</h2>
-  <p>
-    Machine Learning Engineer with MSc in Data Science and experience in predictive modeling,
-    NLP, speech processing, and computer vision. Strong background in Python, SQL, deep learning,
-    and production-oriented ML workflows.
-  </p>
-</section>
+    <section class="section" id="experience">
+      <div class="section-heading">
+        <p>Career</p>
+        <h2>Experience</h2>
+      </div>
 
-<section id="education">
-  <h2>Education</h2>
-  <ul>
-    <li><b>MSc Data Science</b> — Shahid Beheshti University (2022–2025)</li>
-    <li><b>BSc Computer Science</b> — Alzahra University (2018–2022)</li>
-    <li><b>High School</b> — SAMPAD</li>
-  </ul>
-</section>
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="timeline-meta">Oct. 2025 — Jun. 2026</div>
+          <div class="timeline-card">
+            <h3>Machine Learning Specialist · Kavoshgaran Company, Tehran</h3>
+            <p class="muted">Cardiovascular Disease Detection Using a Pulse Diagnosis Device</p>
+            <ul>
+              <li>Developed machine learning workflows for biosignal-based classification and analysis.</li>
+              <li>Worked on feature extraction and model evaluation for a health-related detection task.</li>
+              <li>Contributed to improving the reliability of experimental results through structured testing.</li>
+            </ul>
+          </div>
+        </article>
 
-<section id="experience">
-  <h2>Experience</h2>
+        <article class="timeline-item">
+          <div class="timeline-meta">Jul. 2025 — Oct. 2025</div>
+          <div class="timeline-card">
+            <h3>Machine Learning Specialist · Hatef Company, Tehran</h3>
+            <p class="muted">Fatigue Detection Using Biosignals and Machine Learning</p>
+            <ul>
+              <li>Built and evaluated ML models for biosignal analysis in a fatigue-detection setting.</li>
+              <li>Applied signal-processing and feature-engineering techniques to improve model inputs.</li>
+              <li>Collaborated on the transition from raw data to usable model-ready datasets.</li>
+            </ul>
+          </div>
+        </article>
 
-  <div class="card">
-    <h3>Machine Learning Specialist — Kavoshgaran</h3>
-    <p>Cardiovascular disease detection using biosignals</p>
-  </div>
+        <article class="timeline-item">
+          <div class="timeline-meta">Jun. 2025 — Jul. 2025</div>
+          <div class="timeline-card">
+            <h3>Machine Learning Intern · Hatef Company, Tehran</h3>
+            <p class="muted">Signal Processing Using Biosignals and Machine Learning</p>
+            <ul>
+              <li>Supported preprocessing, feature extraction, and experimentation on biosignal data.</li>
+              <li>Strengthened practical understanding of model development and data preparation.</li>
+            </ul>
+          </div>
+        </article>
 
-  <div class="card">
-    <h3>Machine Learning Specialist — Hatef Company</h3>
-    <p>Fatigue detection using biosignal ML models</p>
-  </div>
+        <article class="timeline-item">
+          <div class="timeline-meta">Sep. 2022 — Jul. 2023</div>
+          <div class="timeline-card">
+            <h3>Teaching Assistant · Alzahra University, Tehran</h3>
+            <p class="muted">Foundations of Combinatory; Design and Analysis of Algorithms; Artificial Intelligence</p>
+            <ul>
+              <li>Assisted students with problem-solving, algorithmic reasoning, and exam preparation.</li>
+              <li>Strengthened communication, mentoring, and technical explanation skills.</li>
+            </ul>
+          </div>
+        </article>
 
-  <div class="card">
-    <h3>Teaching Assistant — Alzahra University</h3>
-    <p>Algorithms, AI, Combinatorics</p>
-  </div>
-</section>
+        <article class="timeline-item">
+          <div class="timeline-meta">Apr. 2019 — Jul. 2019</div>
+          <div class="timeline-card">
+            <h3>Web Developer Intern · TUMS International College Institute of IELTS (ICCS), University of Tehran</h3>
+            <p class="muted">Designed and launched a website using HTML, CSS, and JavaScript</p>
+            <ul>
+              <li>Contributed to front-end development and website delivery.</li>
+              <li>Gained practical experience working with web technologies and project execution.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
 
-<section id="projects">
-  <h2>Selected Projects</h2>
+    <section class="section" id="projects">
+      <div class="section-heading">
+        <p>Work</p>
+        <h2>Selected Projects</h2>
+      </div>
 
-  <div class="card">
-    <h3>Emotion Recognition (WESAD)</h3>
-    <p>Physiological signal-based deep learning classification</p>
-  </div>
+      <div class="grid">
+        <article class="project-card">
+          <span>2025 · WESAD Dataset</span>
+          <h3>Emotion Recognition using Machine Learning and Deep Learning Models</h3>
+          <p>Built machine learning and deep learning models for emotion classification from physiological signals.</p>
+        </article>
 
-  <div class="card">
-    <h3>Speech Language Identification (VoxLingua)</h3>
-    <p>Attention-based deep learning model for multilingual speech</p>
-  </div>
+        <article class="project-card">
+          <span>2025 · FatigueSet and MEFAR</span>
+          <h3>Fatigue Detection using Machine Learning Models</h3>
+          <p>Developed fatigue detection models using supervised learning approaches on multimodal behavioral data.</p>
+        </article>
 
-  <div class="card">
-    <h3>Sentiment Analysis (Persian NLP)</h3>
-    <p>NLP pipeline for customer review classification</p>
-  </div>
-</section>
+        <article class="project-card">
+          <span>2024 · VoxLingua107</span>
+          <h3>Spoken Language Identification using Deep Learning and Attention Mechanisms</h3>
+          <p>Created attention-based deep learning models for multilingual speech classification.</p>
+        </article>
 
-<section id="skills">
-  <h2>Technical Skills</h2>
+        <article class="project-card">
+          <span>2023 · SnappFood Dataset</span>
+          <h3>Sentiment Analysis in Persian</h3>
+          <p>Built NLP pipelines for sentiment classification of Persian customer reviews.</p>
+        </article>
 
-  <div class="grid">
-    <div>Python</div>
-    <div>Machine Learning</div>
-    <div>Deep Learning</div>
-    <div>NLP</div>
-    <div>Computer Vision</div>
-    <div>SQL</div>
-    <div>Pandas</div>
-    <div>TensorFlow / PyTorch</div>
-  </div>
-</section>
+        <article class="project-card">
+          <span>2022 · Tavanir Company</span>
+          <h3>RNN-Based Electricity Consumption Forecasting</h3>
+          <p>Developed time-series forecasting models to predict electricity consumption patterns.</p>
+        </article>
 
-<section id="contact">
-  <h2>Contact</h2>
-  <p>Email: your.email@example.com</p>
-  <p>LinkedIn: linkedin.com/in/yourprofile</p>
-  <p>GitHub: github.com/yourprofile</p>
-</section>
+        <article class="project-card">
+          <span>2023 · Computer Vision</span>
+          <h3>GoogleLeNet-Inspired Vision Model for CIFAR-10</h3>
+          <p>Designed a convolutional vision model inspired by GoogleLeNet for image classification.</p>
+        </article>
+      </div>
+    </section>
 
-<footer>
-  <p>© 2026 Your Name — Machine Learning Engineer</p>
-</footer>
+    <section class="section" id="skills">
+      <div class="section-heading">
+        <p>Toolkit</p>
+        <h2>Technical Skills</h2>
+      </div>
 
-<script src="script.js"></script>
+      <div class="skill-groups">
+        <div class="skill-group">
+          <h3>Programming</h3>
+          <p>Python, Java, C++, HTML, CSS, JavaScript</p>
+        </div>
+        <div class="skill-group">
+          <h3>Data & ML</h3>
+          <p>EDA, Data Mining, Machine Learning, Deep Learning, NLP, Artificial Intelligence</p>
+        </div>
+        <div class="skill-group">
+          <h3>Math & CS</h3>
+          <p>Data Structures, Algorithms, Theory of Computation</p>
+        </div>
+        <div class="skill-group">
+          <h3>Data Tools</h3>
+          <p>Pandas, data visualization, database fundamentals</p>
+        </div>
+        <div class="skill-group">
+          <h3>Office & Design</h3>
+          <p>Microsoft Word, Excel, PowerPoint, Adobe Photoshop, 3D Max</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="education">
+      <div class="section-heading">
+        <p>Academics</p>
+        <h2>Education</h2>
+      </div>
+
+      <div class="stack">
+        <div class="stack-item">
+          <h3>MSc in Data Science · Shahid Beheshti University</h3>
+          <p>2022 — 2025 · Relevant coursework: Exploratory Data Analysis, Deep Learning, Advanced Machine Learning, Big Data Analysis.</p>
+        </div>
+        <div class="stack-item">
+          <h3>BSc in Computer Science · Alzahra University</h3>
+          <p>2018 — 2022 · Relevant coursework: Data Structures, Algorithm Design, Machine Learning, Data Mining, Artificial Intelligence.</p>
+        </div>
+        <div class="stack-item">
+          <h3>High School Diploma · SAMPAD</h3>
+          <p>2011 — 2018 · Experimental Sciences</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="certifications">
+      <div class="section-heading">
+        <p>Achievements</p>
+        <h2>Competitions and Certifications</h2>
+      </div>
+
+      <div class="tags">
+        <span>20th Iran Internet Contest - ICPC ACM Asia 2024</span>
+        <span>Advanced NLP with SpaCy — DataCamp 2022</span>
+        <span>Advanced Deep Learning with Keras — DataCamp 2022</span>
+        <span>Image Processing with Keras in Python — DataCamp 2022</span>
+        <span>Feature Engineering for NLP in Python — DataCamp 2022</span>
+        <span>Data Manipulation with Pandas — DataCamp 2022</span>
+        <span>Cluster Analysis in Python — DataCamp 2022</span>
+        <span>Joining Data with Pandas — DataCamp 2022</span>
+        <span>Intermediate Importing Data in Python — DataCamp 2022</span>
+        <span>Intermediate Data Visualization — DataCamp 2022</span>
+        <span>Web Design — MPT Academy International Certification 2020</span>
+        <span>17th Iran Internet Contest - ICPC ACM Asia 2019</span>
+        <span>Kangourou sans Frontieres (top 30%) — 2016</span>
+      </div>
+    </section>
+
+    <section class="section" id="languages">
+      <div class="section-heading">
+        <p>Communication</p>
+        <h2>Languages</h2>
+      </div>
+
+      <div class="languages">
+        <div class="language"><strong>Persian</strong><span>Native</span></div>
+        <div class="language"><strong>English</strong><span>Full Professional Proficiency (IELTS 7.5)</span></div>
+        <div class="language"><strong>Japanese</strong><span>Intermediate</span></div>
+        <div class="language"><strong>Italian</strong><span>Basic</span></div>
+        <div class="language"><strong>Arabic</strong><span>Basic</span></div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="section-heading">
+        <p>Reach Out</p>
+        <h2>Contact</h2>
+      </div>
+      <div class="panel contact-grid">
+        <div>
+          <h3>Email</h3>
+          <p>your.email@example.com</p>
+        </div>
+        <div>
+          <h3>LinkedIn</h3>
+          <p>linkedin.com/in/yourprofile</p>
+        </div>
+        <div>
+          <h3>GitHub</h3>
+          <p>github.com/yourprofile</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 · Machine Learning Engineer Portfolio</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
